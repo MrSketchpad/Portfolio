@@ -1,0 +1,149 @@
+* {
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.hero1 {
+    height: 135vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    background-image: url("../images/CoronaCropped.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mainText {
+    position: sticky;
+    top: 0;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: row;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.mainText h1 {
+    padding-left: 2vw;
+}
+
+.heroText {
+    padding-bottom: 1.9vw;
+    padding-left: 2vw;
+}
+
+.hero1 h1 {
+    padding-top: 1.2vw;
+    padding-bottom: 1.3vw;
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero1 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navLink {
+    margin-right: 1vw;
+}
+
+.hero1 a {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 0.9vw;
+    color: white;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.hero1 a:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    transition: 0.15s;
+}
+
+main {
+    line-height: 1.6;
+    width: 100%;
+    padding-top: 5vw;
+    padding-left: 5vw;
+}
+
+.myLife {
+    width: 35%
+}
+
+main h2 {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
+
+main h3 {
+    font-size: 1.1vw;
+    padding-bottom: 0.25vw;
+}
+
+main p {
+    font-size: 0.82vw;
+    padding-bottom: 3vw;
+}
+
+.aboutDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+.card {
+    padding-left: 1vw;
+    width: 70%;
+}
+
+.card p {
+    padding-bottom: 2vw;
+}
+
+.card img {
+    width: 1.5vw;
+    object-fit: contain;
+
+    padding-right: 0.5vw;
+}
+
+.card h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-items: center;
+}
+
+.workExperience {
+    width: 25%;
+}
+
+.extracurriculars {
+    width: 25%;
+}
